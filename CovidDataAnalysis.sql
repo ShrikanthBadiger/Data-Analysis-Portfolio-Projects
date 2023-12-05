@@ -10,9 +10,9 @@ select *
 from [Portfolio Project]..CovidDeaths
 order by 3,4
 
---select *
---from [Portfolio Project]..CovidVaccinations
---order by 3,4
+select *
+from [Portfolio Project]..CovidVaccinations
+order by 3,4
 
 --Select data that are going to be used
 select location, date, total_cases, new_cases, total_deaths, population
