@@ -125,8 +125,6 @@ where dea.continent is not null
 Select *, (RollingPeopleVaccinated/Population)*100
 From PopvsVac
 
-
-
 -- Using Temp Table to perform Calculation on Partition By in previous query
 
 DROP Table if exists #PercentPopulationVaccinated
@@ -153,9 +151,6 @@ Join [Portfolio Project]..CovidVaccinations vac
 
 Select *, (RollingPeopleVaccinated/Population)*100
 From #PercentPopulationVaccinated
-
-
-
 
 -- Creating View to store data for later visualizations
 
